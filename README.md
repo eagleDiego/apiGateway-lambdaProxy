@@ -54,7 +54,7 @@ def lambda_handler(event, context):
    # this is always a JSON string
    response['body'] = json.dumps({'message':'Error writing to the database'})
 
-	# And you're ready to send the response to API gateway!
+   # And you're ready to send the response to API gateway!
    return response
 ~~~~
 
