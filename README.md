@@ -20,7 +20,7 @@ Once you're ready finish off the response by setting the [response code](https:/
 import json
 
 def lambda_handler(event, context):
-	# Prepare a response dictionary as required by API Gateway
+   # Prepare a response dictionary as required by API Gateway
    response = {
         'isBase64Encoded': False,
         'statusCode': 0,
